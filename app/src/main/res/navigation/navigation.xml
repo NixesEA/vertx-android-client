@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/connectionConfigFragment">
+
+    <fragment
+        android:id="@+id/connectionConfigFragment"
+        android:name="com.nixesea.testvkr.fragments.ConnectionConfigFragment"
+        android:label="ConnectionConfigFragment"
+        tools:layout="@layout/connection_config_fragment">
+        <action
+            android:id="@+id/action_connectionConfigFragment_to_simulateFragment"
+            app:destination="@id/simulateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/simulateFragment"
+        android:name="com.nixesea.testvkr.fragments.SimulateFragment"
+        android:label="SimulateFragment"
+        tools:layout="@layout/simulate_fragment"/>
+</navigation>

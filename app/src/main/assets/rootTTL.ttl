@@ -1,0 +1,289 @@
+@prefix : <http://webprotege.stanford.edu/project/co6WD6WelXsz2DLygYbnb#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/co6WD6WelXsz2DLygYbnb> .
+
+<http://webprotege.stanford.edu/project/co6WD6WelXsz2DLygYbnb> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R7H3LCzSzwuyuKh03G279X1
+<http://webprotege.stanford.edu/R7H3LCzSzwuyuKh03G279X1> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RsXuiDknvz5JNLXqzHwTFa> ;
+                                                         rdfs:label "клапаны" .
+
+
+###  http://webprotege.stanford.edu/R7dFr4WIKg4jylZcqzNpQxA
+<http://webprotege.stanford.edu/R7dFr4WIKg4jylZcqzNpQxA> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBoIdOxLliY9MTuyGo9VzCT> ;
+                                                         rdfs:label "Bluetooth"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R7nqgdprnZ3zuBc1ohGAndD
+<http://webprotege.stanford.edu/R7nqgdprnZ3zuBc1ohGAndD> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCwcFSGVcf841vuzxXUqykX> ,
+                                                                         <http://webprotege.stanford.edu/RWxmUP8iTzLAz4H9qGNUoR> ;
+                                                         rdfs:label "мобильная связь" .
+
+
+###  http://webprotege.stanford.edu/R8C0cRMihzCpYl1PLKRNoop
+<http://webprotege.stanford.edu/R8C0cRMihzCpYl1PLKRNoop> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCq76QYvFMINvzVFwPToB98> ;
+                                                         rdfs:label "операторы" .
+
+
+###  http://webprotege.stanford.edu/R8aVCZBNesGuDYIZaQaYst8
+<http://webprotege.stanford.edu/R8aVCZBNesGuDYIZaQaYst8> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9gar966IAOj6VZuPsGSjKw> ;
+                                                         rdfs:label "платформы" .
+
+
+###  http://webprotege.stanford.edu/R8jPzTyO9ZYfXupHYTKnygo
+<http://webprotege.stanford.edu/R8jPzTyO9ZYfXupHYTKnygo> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBoIdOxLliY9MTuyGo9VzCT> ;
+                                                         rdfs:label "WiFi"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R8umvSGzCHVU5mYeuldaAdb
+<http://webprotege.stanford.edu/R8umvSGzCHVU5mYeuldaAdb> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS> ;
+                                                         rdfs:label "датчики давления" .
+
+
+###  http://webprotege.stanford.edu/R8wsUFhGK9xBW4HeIBjwJ8
+<http://webprotege.stanford.edu/R8wsUFhGK9xBW4HeIBjwJ8> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBU1ANAg9GPn8SyTU6Tk8Er> ;
+                                                        rdfs:label "железо" .
+
+
+###  http://webprotege.stanford.edu/R9JmD2Dypkzb9HkIFR09xIY
+<http://webprotege.stanford.edu/R9JmD2Dypkzb9HkIFR09xIY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8aVCZBNesGuDYIZaQaYst8> ,
+                                                                         <http://webprotege.stanford.edu/RBBCbkOgYYf4n1uhTSK5RDX> ;
+                                                         rdfs:label "Microsoft" .
+
+
+###  http://webprotege.stanford.edu/R9MAplbKrPKrLPFdbmN6Gzq
+<http://webprotege.stanford.edu/R9MAplbKrPKrLPFdbmN6Gzq> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS> ;
+                                                         rdfs:label "датчики температуры" .
+
+
+###  http://webprotege.stanford.edu/R9OqA27n9gEpxmDs7KE4xaD
+<http://webprotege.stanford.edu/R9OqA27n9gEpxmDs7KE4xaD> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RsXuiDknvz5JNLXqzHwTFa> ;
+                                                         rdfs:label "реле" .
+
+
+###  http://webprotege.stanford.edu/R9SI7lowFnwZY7RLOMSxe8i
+<http://webprotege.stanford.edu/R9SI7lowFnwZY7RLOMSxe8i> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9Z4JYIlfrkLlVaI9kn21fc> ;
+                                                         rdfs:label "прогнозирование" .
+
+
+###  http://webprotege.stanford.edu/R9Z4JYIlfrkLlVaI9kn21fc
+<http://webprotege.stanford.edu/R9Z4JYIlfrkLlVaI9kn21fc> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RhpXsOrxG3kEYtFBch3W6G> ;
+                                                         rdfs:label "интеллектуальный анализ данных" .
+
+
+###  http://webprotege.stanford.edu/R9f5lAxlPxmoLqOJECgUCNV
+<http://webprotege.stanford.edu/R9f5lAxlPxmoLqOJECgUCNV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9gar966IAOj6VZuPsGSjKw> ;
+                                                         rdfs:label "приложения" .
+
+
+###  http://webprotege.stanford.edu/R9gar966IAOj6VZuPsGSjKw
+<http://webprotege.stanford.edu/R9gar966IAOj6VZuPsGSjKw> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBU1ANAg9GPn8SyTU6Tk8Er> ;
+                                                         rdfs:label "готовые решения" .
+
+
+###  http://webprotege.stanford.edu/R9nFEBfuYkxPDw8rUYqKoxY
+<http://webprotege.stanford.edu/R9nFEBfuYkxPDw8rUYqKoxY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7nqgdprnZ3zuBc1ohGAndD> ;
+                                                         rdfs:label "2g" .
+
+
+###  http://webprotege.stanford.edu/R9qbQK0eTjIuNHQ49UnTPbT
+<http://webprotege.stanford.edu/R9qbQK0eTjIuNHQ49UnTPbT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS> ;
+                                                         rdfs:label "датчики уровня жидкости" .
+
+
+###  http://webprotege.stanford.edu/R9vUyApPTl4h7JiIhLqZAy6
+<http://webprotege.stanford.edu/R9vUyApPTl4h7JiIhLqZAy6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9f5lAxlPxmoLqOJECgUCNV> ;
+                                                         rdfs:label "для управления устройствами" .
+
+
+###  http://webprotege.stanford.edu/R9vnBEqaEHnqZWE3x8ut0fd
+<http://webprotege.stanford.edu/R9vnBEqaEHnqZWE3x8ut0fd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8aVCZBNesGuDYIZaQaYst8> ,
+                                                                         <http://webprotege.stanford.edu/RBBCbkOgYYf4n1uhTSK5RDX> ;
+                                                         rdfs:label "PTC" .
+
+
+###  http://webprotege.stanford.edu/R9zJpwrn4cTmZePFvcaMftI
+<http://webprotege.stanford.edu/R9zJpwrn4cTmZePFvcaMftI> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RsXuiDknvz5JNLXqzHwTFa> ;
+                                                         rdfs:label "моторы" .
+
+
+###  http://webprotege.stanford.edu/RBBCbkOgYYf4n1uhTSK5RDX
+<http://webprotege.stanford.edu/RBBCbkOgYYf4n1uhTSK5RDX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9f5lAxlPxmoLqOJECgUCNV> ;
+                                                         rdfs:label "производители" .
+
+
+###  http://webprotege.stanford.edu/RBFc1eMG1YU436lLFJOsx90
+<http://webprotege.stanford.edu/RBFc1eMG1YU436lLFJOsx90> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RdnDnCsDM3jNVTzZUygWrw> ;
+                                                         rdfs:label "TCP/IP" .
+
+
+###  http://webprotege.stanford.edu/RBTgGv34bvrVakZz1XXyGaN
+<http://webprotege.stanford.edu/RBTgGv34bvrVakZz1XXyGaN> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS> ;
+                                                         rdfs:label "датчики местоположения" .
+
+
+###  http://webprotege.stanford.edu/RBU1ANAg9GPn8SyTU6Tk8Er
+<http://webprotege.stanford.edu/RBU1ANAg9GPn8SyTU6Tk8Er> rdf:type owl:Class ;
+                                                         rdfs:label "iot" .
+
+
+###  http://webprotege.stanford.edu/RBoIdOxLliY9MTuyGo9VzCT
+<http://webprotege.stanford.edu/RBoIdOxLliY9MTuyGo9VzCT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCwcFSGVcf841vuzxXUqykX> ,
+                                                                         <http://webprotege.stanford.edu/RWxmUP8iTzLAz4H9qGNUoR> ;
+                                                         rdfs:label "локальные сети" .
+
+
+###  http://webprotege.stanford.edu/RC0SCVQTFJVWa3YKsDy3rjI
+<http://webprotege.stanford.edu/RC0SCVQTFJVWa3YKsDy3rjI> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RhpXsOrxG3kEYtFBch3W6G> ;
+                                                         rdfs:label "приложения для диагностики" .
+
+
+###  http://webprotege.stanford.edu/RCZ1YOLqSZ5oSRw3F3HQljG
+<http://webprotege.stanford.edu/RCZ1YOLqSZ5oSRw3F3HQljG> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBoIdOxLliY9MTuyGo9VzCT> ;
+                                                         rdfs:label "LPWAN" .
+
+
+###  http://webprotege.stanford.edu/RCq76QYvFMINvzVFwPToB98
+<http://webprotege.stanford.edu/RCq76QYvFMINvzVFwPToB98> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBU1ANAg9GPn8SyTU6Tk8Er> ;
+                                                         rdfs:label "персонал" .
+
+
+###  http://webprotege.stanford.edu/RCwcFSGVcf841vuzxXUqykX
+<http://webprotege.stanford.edu/RCwcFSGVcf841vuzxXUqykX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RDBBp9n4jk3PQzO4mcYg4Cn> ;
+                                                         rdfs:label "отправка данных" .
+
+
+###  http://webprotege.stanford.edu/RDBBp9n4jk3PQzO4mcYg4Cn
+<http://webprotege.stanford.edu/RDBBp9n4jk3PQzO4mcYg4Cn> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8wsUFhGK9xBW4HeIBjwJ8> ;
+                                                         rdfs:label "средства связи" .
+
+
+###  http://webprotege.stanford.edu/RDHEVcUbssJ9rFMWMTsJ3nN
+<http://webprotege.stanford.edu/RDHEVcUbssJ9rFMWMTsJ3nN> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7nqgdprnZ3zuBc1ohGAndD> ;
+                                                         rdfs:label "3g" .
+
+
+###  http://webprotege.stanford.edu/RDfwnIoNCMF4TiaKDfkGXmq
+<http://webprotege.stanford.edu/RDfwnIoNCMF4TiaKDfkGXmq> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7nqgdprnZ3zuBc1ohGAndD> ;
+                                                         rdfs:label "LTE"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RDhyU2nDLySDS6XVgWHJfkI
+<http://webprotege.stanford.edu/RDhyU2nDLySDS6XVgWHJfkI> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RdnDnCsDM3jNVTzZUygWrw> ;
+                                                         rdfs:label "IPv6" .
+
+
+###  http://webprotege.stanford.edu/RDoi7DCnurQA4lWT3fgrbBz
+<http://webprotege.stanford.edu/RDoi7DCnurQA4lWT3fgrbBz> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8aVCZBNesGuDYIZaQaYst8> ,
+                                                                         <http://webprotege.stanford.edu/RBBCbkOgYYf4n1uhTSK5RDX> ;
+                                                         rdfs:label "SAP" .
+
+
+###  http://webprotege.stanford.edu/RFgDwyxUDrF3mAAhi8nCIm
+<http://webprotege.stanford.edu/RFgDwyxUDrF3mAAhi8nCIm> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBoIdOxLliY9MTuyGo9VzCT> ;
+                                                        rdfs:label "Ethernet" .
+
+
+###  http://webprotege.stanford.edu/RHGdhNsWEBw6bVrRpaSr1S
+<http://webprotege.stanford.edu/RHGdhNsWEBw6bVrRpaSr1S> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCq76QYvFMINvzVFwPToB98> ;
+                                                        rdfs:label "it-персонал" .
+
+
+###  http://webprotege.stanford.edu/RHLPp8CYpigHqyJXmiWDiv
+<http://webprotege.stanford.edu/RHLPp8CYpigHqyJXmiWDiv> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8wsUFhGK9xBW4HeIBjwJ8> ;
+                                                        rdfs:label "устройства" .
+
+
+###  http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS
+<http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RHLPp8CYpigHqyJXmiWDiv> ;
+                                                        rdfs:label "датчики" .
+
+
+###  http://webprotege.stanford.edu/RWxmUP8iTzLAz4H9qGNUoR
+<http://webprotege.stanford.edu/RWxmUP8iTzLAz4H9qGNUoR> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RDBBp9n4jk3PQzO4mcYg4Cn> ;
+                                                        rdfs:label "сбор данных" .
+
+
+###  http://webprotege.stanford.edu/RdnDnCsDM3jNVTzZUygWrw
+<http://webprotege.stanford.edu/RdnDnCsDM3jNVTzZUygWrw> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9f5lAxlPxmoLqOJECgUCNV> ;
+                                                        rdfs:label "приложения связи" .
+
+
+###  http://webprotege.stanford.edu/RduMVEaBrghFQEuEhBUQrx
+<http://webprotege.stanford.edu/RduMVEaBrghFQEuEhBUQrx> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RdnDnCsDM3jNVTzZUygWrw> ;
+                                                        rdfs:label "IPv4" .
+
+
+###  http://webprotege.stanford.edu/Re4jBezX1WhP52kQDaJBR6
+<http://webprotege.stanford.edu/Re4jBezX1WhP52kQDaJBR6> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCq76QYvFMINvzVFwPToB98> ;
+                                                        rdfs:label "ТО" .
+
+
+###  http://webprotege.stanford.edu/ReIDC6eYN5O7utJDkIVTA8
+<http://webprotege.stanford.edu/ReIDC6eYN5O7utJDkIVTA8> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RIWb9Y1fzhaEthGPR75QwS> ;
+                                                        rdfs:label "датчики влажности" .
+
+
+###  http://webprotege.stanford.edu/RhpXsOrxG3kEYtFBch3W6G
+<http://webprotege.stanford.edu/RhpXsOrxG3kEYtFBch3W6G> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9f5lAxlPxmoLqOJECgUCNV> ;
+                                                        rdfs:label "для аналитической обработки данных" .
+
+
+###  http://webprotege.stanford.edu/RsXuiDknvz5JNLXqzHwTFa
+<http://webprotege.stanford.edu/RsXuiDknvz5JNLXqzHwTFa> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RHLPp8CYpigHqyJXmiWDiv> ;
+                                                        rdfs:label "механизмы" .
+
+
+###  Generated by the OWL API (version 4.5.10) https://github.com/owlcs/owlapi
